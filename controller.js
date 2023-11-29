@@ -37,10 +37,16 @@ function checkCookie() {
 }
 
 // onInput
-function writeText(){
+function writeText() {
     inpTxt1 = document.getElementById("inpTxt1").value;
-    
+
     // Live input
     txt1 = document.getElementById("display-text").innerHTML = inpTxt1;
     // let txt1 = inpTxt1
+}
+
+// onChange
+function upperCase() { //make value in inpyt field to uppercase
+    const x = document.getElementById("txtUp");
+    x.value = x.value.toUpperCase();
 }

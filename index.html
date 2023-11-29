@@ -30,9 +30,16 @@
     <p id="data"></p>
     <hr>
 
+    <!-- OnInput is use for get value in input field -->
     <h3 class="text-color-blue">+ onInput</h3>
     <input type="text" id="inpTxt1" oninput="writeText()">
     <p id="display-text"></p>
+    <hr>
+
+    <!-- OnChange is almost the same as OnInput but it can use a lot more than OnInput-->
+    <h3 class="text-color-blue">+ onChange</h3>
+    <!-- Conver input value to uppercase -->
+    Enter your name: <input type="text" id="txtUp" onchange="upperCase()">
 
     <script src="controller.js"></script>
 </body>
