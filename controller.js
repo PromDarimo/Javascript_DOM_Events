@@ -35,3 +35,12 @@ function checkCookie() {
         .then(x => x.text())
         .then(y => document.getElementById("data").innerHTML = y);
 }
+
+// onInput
+function writeText(){
+    inpTxt1 = document.getElementById("inpTxt1").value;
+    
+    // Live input
+    txt1 = document.getElementById("display-text").innerHTML = inpTxt1;
+    // let txt1 = inpTxt1
+}
