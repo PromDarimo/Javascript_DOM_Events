@@ -52,7 +52,6 @@ function upperCase() { //make value in inpyt field to uppercase
 }
 
 // onMouseup
-
 function onMouseup(){ 
     txt1 = document.getElementById("mouse-text"); //id from div
     txt1.style.backgroundColor = "orange";
@@ -60,6 +59,7 @@ function onMouseup(){
 
 }
 
+// onMousedown
 function onMousedown(){
     txt1 = document.getElementById("mouse-text"); //id from div
     txt1.style.backgroundColor = "gray";
