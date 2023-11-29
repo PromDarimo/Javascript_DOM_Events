@@ -40,6 +40,17 @@
     <h3 class="text-color-blue">+ onChange</h3>
     <!-- Conver input value to uppercase -->
     Enter your name: <input type="text" id="txtUp" onchange="upperCase()">
+    <hr>
+
+    <!-- OnMouseup and OnMousedown. holding clik event. up defult(first) and down after click hold -->
+    <h3 class="text-color-blue">+ onMouseup and onMousedown</h3>
+    <div onmouseup="onMouseup()"
+        onmousedown="onMousedown()"
+        id="mouse-text"
+        class="box" 
+        style="text-align: center;"
+    >Click me</div>
+
 
     <script src="controller.js"></script>
 </body>

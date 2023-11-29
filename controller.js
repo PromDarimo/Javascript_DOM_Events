@@ -50,3 +50,19 @@ function upperCase() { //make value in inpyt field to uppercase
     const x = document.getElementById("txtUp");
     x.value = x.value.toUpperCase();
 }
+
+// onMouseup
+
+function onMouseup(){ 
+    txt1 = document.getElementById("mouse-text"); //id from div
+    txt1.style.backgroundColor = "orange";
+    txt1.innerHTML = "Sunset";
+
+}
+
+function onMousedown(){
+    txt1 = document.getElementById("mouse-text"); //id from div
+    txt1.style.backgroundColor = "gray";
+    txt1.innerHTML = "Moon";
+
+}
