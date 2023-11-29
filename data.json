@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "Thavin",
+        "school": "Setec"
+    },
+    {
+        "id": 2,
+        "name": "Rimo",
+        "school": "RUPP"
+    },
+    {
+        "id": 3,
+        "name": "Batman",
+        "school": "Gotham"
+    },
+    {
+        "id": 4,
+        "name": "Wonder Woman",
+        "school": "Amazon"
+    },
+    {
+        "id": 5,
+        "name": "Aquaman",
+        "school": "unknown"
+    }
+]

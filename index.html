@@ -4,20 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Events</title>
 </head>
 
-<body>
+<body onload="checkCookie()">
+
     <!-- Onclick by function Event in button-->
-    <p>Onclick</p>
+    <h3>+ onClick</h3>
     <input type="text" placeholder="Input here" id="inp1">
     <button onclick="onDisplayText()">Show Data</button>
     <p id="demo"></p>
+    <hr>
 
     <!-- Click by id -->
     <p>Click to execute the displayDate() function.</p>
     <button id="btn1">Try it</button>
     <p id="demo_date"></p>
+    <hr>
+
+    <!-- Onload is use when user enter to page or leave page -->
+    <h3>+ onLoad</h3>
+    <p id="check-cookie" class="text-color-red"></p>
+    <h5>read data when enter the page</h5>
+    <p id="data"></p>
+    <hr>
+
 
     <script src="controller.js"></script>
 </body>
